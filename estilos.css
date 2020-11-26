@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color:#28a745;
+    max-width: 100%;
+}
+
+nav {
+    width: 100%;
+    overflow: auto;
+    background-color:#28a745;
+    margin: auto;
+}
+
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none; 
+}
+
+li{
+    float: left;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 3px;
+    width: 90px;
+    height: 50px;
+}
+
+#Texto {
+    padding: 20px;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #389238;
+    text-decoration: none;
+    color: white;
+}
+
+section,
+footer {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+p {
+    font-size: 17px;
+    color: white;
+}
+
+#Pastillas {
+    background: #28a745;
+    max-width: 100%;
+    text-align: center;
+    padding: 1.5em;
+    color: white;
+}
+
+#Recetas {
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+#EJ {
+    text-align: center;
+    background-color: rgba(40, 167, 69, 0.6);
+    color: white;
+}
+
+.carousel, .carousel-inner > .item > img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel, .item, .active {
+    height: 100%;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+#section-parallax{
+    background-color: #28a745;
+    max-width: 100%;
+}
+
+.parallax {
+    width: 100%;
+    height: 100vh;
+    background-image: url('Imagenes/ejercicio2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-hero {
+    /*background: #111;*/
+    padding: 18px;
+    width: 520px;
+    text-align: center;
+    color:#fff;
+}
+.center{
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.espacio{
+    padding: 30px 0 60px 0;
+    margin-top: 40px;
+}
+
+.espacio p {
+    text-align: center;
+    padding: 30px;
+    text-align: justify;
+    color: white;
+}
+
+.parallax-pequeño{
+    height: 450px;
+    background-image: url('Imagenes/ejercicio4.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.parallax-mediano{
+    height: 450px;
+    background-image: url('Imagenes/ejercicio3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.parallax-final{
+    height: 450px;
+    background-image: url('Imagenes/ejercicio5.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    margin: 1.5em 0;
+    margin: auto;
+}
+
+figcaption {
+    width: 50%;
+    max-width: 250px;
+    margin: auto;
+    margin-top: 1em;
+
+}
+
+footer {
+    max-width: 100%;
+    height: 150px;
+    background: black;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    overflow: auto;
+
+}
+
+footer ul li {
+    list-style: none;
+    width: 40px;
+    display: block;
+}
+
+footer ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    font-size: 0;
+}
+
+footer ul{
+        text-align: center;
+        margin: auto;
+        display: inline-block;
+        list-style: none; 
+}
+
+#ig {
+    background: url(Imagenes/ig.jpg) top center;
+}
+
+#ig:hover {
+    background: url(Imagenes/ig.jpg) bottom center;
+}
+
+#fb {
+    background: url(Imagenes/fb.jpg) top center;
+
+}
+
+#fb:hover {
+    background: url(Imagenes/fb.jpg) bottom center;
+}
+
+#tw {
+    background: url(Imagenes/tw.jpg) top center;
+}
+
+#tw:hover {
+    background: url(Imagenes/tw.jpg) bottom  center;
+}
+
+#video {
+    max-width: 100%;
+    height: 550px;
+    text-align: center;
+    background: #28a745;
+    color: white;
+    
+    padding: 30px 0 0 0;
+
+}
+
+#Ejercicio {
+    background: #28a745;
+    max-width: 100%;
+    text-align: center;
+    color: white;
+    padding: 30px 0 0 0;
+}
+
+#ejer{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background: #28a745;
+}
+
+#ejercicioimg{
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+#vid {
+    max-width: 560px;
+    max-height: 315px;
+    margin: auto;
+    width: 80vw;
+    height: calc(80vw * 315 / 560);
+}
+
+#Producto {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    background: #208337;
+    height: 200px;
+    padding: 1.5em;
+    color: white;
+}
+
+#figu{
+    margin-top: 40px;
+}
+
+
+#Contacto{
+    max-width: 100%;
+    height: 650px;
+    padding: 1.5em;
+    background: #28a745;
+    color: white;
+}
+
+#contactH{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+form{
+    width: 650px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10x;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: #28a745;
+    color:black;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:990px) {
+
+    header,
+    section,
+    footer {
+
+        max-width: 960;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: left;
+        margin: 15px;
+        display: block;
+
+
+    }
+
+    #Pastillas div {
+        display: flex;
+        justify-content: center;
+    }
+
+    figure {
+        margin: 20px;
+    }
+
+    figcaption {
+        width: 100%;
+    }
+
+    nav {
+        width: 700px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+
+
+    }
+    
+}
